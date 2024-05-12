@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #ffee00;
+    background-color: #2ddab4;
 }
 header {
     width: 100%;
-    height: 8rem;
-    background-color: #ffbb00;
+    height: 5rem;
+    background-color: #009d83;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -20,57 +20,57 @@ header {
     height: 8rem;
 }
 .img-web {
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
-    margin: 1rem;
+    margin-top: 1.5rem;
 }
 
 h1{
     font-size: 30px;
     text-align: center;
     color:white;
-    -webkit-text-stroke: 1px #ffee00;
-    text-shadow: 0px 2px 4px rgb(255, 182, 73);
+    -webkit-text-stroke: 1px #2ddab4;
+    text-shadow: 0px 2px 4px #2ddab4;
 }
 button{
     border: none; 
-    background-color: rgb(255, 238, 0);
+    background-color:#a3f7dc;
     color: rgb(0, 0, 0); 
     padding: 5px 10px; 
     cursor: pointer; 
     border-radius: 10px; 
-    border: 2px solid rgb(255, 124, 37);
+    border: 2px solid #08c19f;
 }
 
 .pequeñonavbar{
  width: 95%;
  margin-top: 0.9rem;
  display: flex;
- height: 4rem;
+ height: 2.5rem;
  justify-content: space-around;
 }
 
 
 option{
     border: none; 
-    background-color: rgb(255, 238, 0);
+    background-color:#a3f7dc;
     color: rgb(0, 0, 0); 
     padding: 5px 10px; 
     cursor: pointer; 
     border-radius: 10px; 
-    border: 2px solid rgb(255, 124, 37);
+    border: 2px solid #08c19f;
 }
 
 select{
     border: none; 
-    background-color: rgb(255, 238, 0);
+    background-color: #a3f7dc;
     color: rgb(0, 0, 0); 
     padding: 5px 10px; 
     cursor: pointer; 
     border-radius: 10px; 
-    border: 2px solid rgb(255, 124, 37);
+    border: 2px solid#08c19f;
 }
 
 .images>img{
@@ -86,16 +86,20 @@ hr{
 
 .line1{
     display: flex;
-    justify-content: space-around;
-    margin-top: 2rem;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 .Ciudad{
-    justify-content: left;
-    width: 18%;
-    height: 12rem;
+    justify-content:center;
+    width: 17rem;
+    margin: 0 10px;
+    height: 8rem;
     text-align: center;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
+
 }
 .Ciudad>img{ 
     width: 100%;
@@ -112,13 +116,38 @@ hr{
 
 .line2{
     display: flex;
-    justify-content: space-around;
-    margin-top: 5rem;
+    justify-content: center;
+    margin-top: 2.2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 
 .line3{
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 5rem;
-    margin: 2rem;
+    margin-top: 2.2rem;
+    margin-bottom: 3rem;
+    justify-content: center;
+    margin-left: 19.2rem;
+    margin-right: 19.2rem;
+}
+
+footer{
+    width: 100%;
+    height: 7rem;
+    background-color:  #009d83;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+
+.footer>hr{
+    background-color: rgb(255, 255, 255);
+    height: 1px;
+}
+
+.footer>img{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.8rem;
 }
